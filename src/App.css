@@ -1,0 +1,461 @@
+.app {
+  height: 100vh;
+  display: flex;
+  background-color: #020230;
+  color: white;
+}
+
+.main {
+  /* width: 75%; */
+  flex: 0.75;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230), 
+  url("./assets/bg.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainTop {
+  flex: 0.5;
+  position: relative;
+}
+
+.mainBottom {
+  flex: 0.5;
+}
+
+.timer {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+.startButton {
+ display: inline-block;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                will-change: box-shadow,transform;
+                background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+                box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+                padding: 0 32px;
+                border-radius: 6px;
+                color: #fff;
+                height: 48px;
+                font-size: 18px;
+                text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+                transition: box-shadow 0.15s ease,transform 0.15s ease;
+                width: 100%;
+                margin-top: 8px;
+                  text-transform: capitalize;
+}
+.startButton:hover {
+   box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+   transform: translateY(-2px);
+   text-transform: capitalize;
+}
+
+.pyramid {
+  /* width: 25%; */
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+  overflow-y: none;
+}
+
+.pyramid::-webkit-scrollbar {
+  display: none;
+}
+
+.moneyList {
+  list-style-type: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.moneyListItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.moneyListItem.active {
+  background-color: teal;
+}
+
+.moneyListItemNumber {
+  font-size: 18px;
+  font-weight: 100;
+  flex: 0.3;
+}
+
+.moneyListItemAmount {
+  font-size: 20px;
+  font-weight: 300;
+  flex: 0.7;
+  text-align: end;
+}
+
+/* .endText {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+} */
+
+.endPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.endButton {
+   display: inline-block;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                will-change: box-shadow,transform;
+                background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+                box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+                padding: 0 32px;
+                border-radius: 6px;
+                color: #fff;
+                height: 48px;
+                font-size: 18px;
+                text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+                transition: box-shadow 0.15s ease,transform 0.15s ease;
+                width: 70%;
+                margin-top: 8px;
+}
+
+.f5050 {
+  margin-top: 8px;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 650;
+  background-color: rgb(0, 49, 141);
+  color: white; 
+  cursor: pointer;
+  width: 40%;
+  border-radius: 9px;
+  border: 0px solid #fff;
+  margin: 0 20px 0 20px;
+  
+}
+.audience {
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 650;
+  background-color: rgb(0, 49, 141);
+  color: white; 
+  cursor: pointer;
+  width: 40%;
+  border-radius: 9px;
+  border: 0px solid #fff;
+  margin: 0 20px 0 20px;
+}
+.friend {
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 650;
+  background-color: rgb(0, 49, 141);
+  color: white; 
+  cursor: pointer;
+  width: 40%;
+  border-radius: 9px;
+  border: 0px solid #fff;
+  margin: 0 20px 0 20px;
+}
+.endButton:hover {
+  transform: scale(1.09);
+  transition: 0.5s ease-in-out;
+  background-color: #020230;
+  color: white;
+}
+
+.userList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.gameButtons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  margin-bottom: 30px;
+   padding-top: 20px;
+}
+
+.quitGame {
+  display: inline-block;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                will-change: box-shadow,transform;
+                background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+                box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+                padding: 0 32px;
+                border-radius: 6px;
+                color: #fff;
+                height: 48px;
+                font-size: 18px;
+                text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+                transition: box-shadow 0.15s ease,transform 0.15s ease;
+                width: 45%;
+}
+.quitGame:hover { 
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+   transform: translateY(-2px);
+}
+
+
+
+.TheroryButton {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+ background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+  border-radius: 6px;
+   color: #fff;
+  height: 48px;
+  font-size: 18px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+transition: box-shadow 0.15s ease,transform 0.15s ease;
+ width: 100%;
+ margin-top: 30px;
+ font-size: 30px;
+ font-weight: bold;
+ text-transform: uppercase;
+
+
+}
+.TheroryButton:hover { 
+ box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+   transform: translateY(-2px);
+}
+.exitGame {
+  display: inline-block;
+                outline: 0;
+                border: 0;
+                cursor: pointer;
+                will-change: box-shadow,transform;
+                background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+                box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+                padding: 0 32px;
+                border-radius: 6px;
+                color: #fff;
+                height: 48px;
+                font-size: 18px;
+                text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+                transition: box-shadow 0.15s ease,transform 0.15s ease;
+                width: 45%;
+}
+.exitGame:hover { 
+ box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+   transform: translateY(-2px);
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+}
+
+.gameName {
+  margin-bottom: 15px;
+  margin-top: 4px;
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+}
+.userName {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: rgb(252, 252, 252);
+  margin-left: 20px;
+  text-align: center;
+  text-transform:uppercase;
+  font-size: 20px;
+}
+
+.userMoney {
+  background-color: white;
+  color: black;
+  font-size: 18px; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  mix-blend-mode: screen; 
+}
+
+@media screen and (max-width: 560px) {
+  .moneyList {
+      padding: 5px;
+    }
+  
+    .moneyListItem {
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .moneyListItemNumber {
+      font-size: 10px;
+      font-weight: 100;
+      flex: 0.3;
+    }
+
+    .moneyListItemAmount {
+      font-size: 12px;
+      font-weight: 300;
+      flex: 0.7;
+      text-align: end;
+    }
+
+    .endText {
+      font-size: 16px;
+    }
+
+    .endButton {
+      width: 100%;
+    }
+
+    .gameButtons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      margin-bottom: 30px;
+      border-radius: 9px;
+    }
+
+    .quitGame {
+      font-size: 12px;
+      font-weight: 450;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .exitGame {
+      font-size: 12px;
+      font-weight: 450;
+      width: 100%;
+      margin-top: 10px;
+      border-radius: 9px;
+    }
+
+    .userDetails {
+      padding: 5px;
+    }
+
+    .userName {
+      margin-bottom: 10px;
+      font-weight: 500;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .userMoney {
+      font-weight: 300;
+      font-size: 12px;
+    }
+    
+    .timer {
+      bottom: 10%;
+      left: 35%;
+    }
+}
+
+
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 72%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+ 
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(65% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+h3{
+  color:#020230 ;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+.questions {
+  color:#3c4fe0;
+  
+  font-size: 26px;
+}
+
+.close-icon{
+  background-color: red;
+}

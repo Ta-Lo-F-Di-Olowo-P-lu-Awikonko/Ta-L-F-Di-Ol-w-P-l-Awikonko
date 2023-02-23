@@ -97,7 +97,7 @@ function App() {
                           className='endButton'
                           onClick={playAgain}
                         >
-                            Play Lẹẹkansi
+                            Gba Lẹẹkansi
                         </button>
                       </div>
                       : (

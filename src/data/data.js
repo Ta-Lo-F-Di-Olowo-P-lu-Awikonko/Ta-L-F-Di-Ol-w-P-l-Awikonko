@@ -9,7 +9,7 @@
         },
         {
           text: "WaỌ̀wá ti Ìsẹ́yìntches",
-          correct: false,
+          correct: true,
         },
         {
           text: "Asẹ́yìn",
@@ -17,7 +17,7 @@
         },
         {
           text: "Olúsẹ́yìn",
-          correct: true,
+          correct: false,
         },
       ],
     },

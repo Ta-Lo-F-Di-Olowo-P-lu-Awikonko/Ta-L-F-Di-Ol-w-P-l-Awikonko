@@ -36,11 +36,11 @@ function App() {
         {id:8, amount:" Ẹgbẹ̀rún Lọ́nà Ọgọ́rin"},
         {id:9, amount:" Ẹgbẹ̀rún Lọ́nà Ọgọ́rùn-ún"},
         {id:10, amount:" Ẹgbẹ̀rún Lọ́nà Ọgọ́fà"},
-        {id:11, amount:" Ẹgbẹ̀rún Lọ́nà Àádọ́jọ̀"},
-        {id:12, amount:" Ẹgbẹ̀rún Lọ́nà Igba"},
-        // {id:13, amount:" ₦2,000,000"},
-        // {id:14, amount:" ₦5,000,000"},
-        // {id:15, amount:" ₦10,000,000"},
+//         {id:11, amount:" Ẹgbẹ̀rún Lọ́nà Àádọ́jọ̀"},
+//         {id:12, amount:" Ẹgbẹ̀rún Lọ́nà Igba"},
+//         // {id:13, amount:" ₦2,000,000"},
+//         // {id:14, amount:" ₦5,000,000"},
+//         // {id:15, amount:" ₦10,000,000"},
     ].reverse(), //an array method to reverse the order just like flex-direction: column reverse;
   []);
 

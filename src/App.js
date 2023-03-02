@@ -144,7 +144,8 @@ function App() {
       content={<>
         <h3>Theory</h3>
         <p className='questions'>
-          1) Tani bàbà Odùduwà? <br></br>
+
+1) Tani bàbà Odùduwà? <br></br>
 2) Ogun abele Orile-ede Naijiria, láàárín ọdún wo, sì ọdún wo?<br></br>
 3) Ọgbọ́n la fi í pẹmọ́, àyà gbangba la fi í pejò, pẹ̀lẹ́pùtù la fi í roko ìdí ọpẹ jẹ òwe e?<br></br>
 4) kín ni orúkọ oyè ọba ìlú Warri?<br></br>
@@ -154,8 +155,7 @@ function App() {
 8) Kín ni orúkọ aare orile-ede Amerika?<br></br>
 9) Ọmọ ilé ìgbìmò asofin mélòó ni nbẹ ni Naijiria?<br></br>
 10) Olú ìlú ipinle Anambra ni?<br></br>
-11) Oṣù wo ni Yoruba npe ni Sẹẹrẹ?<br></br>
-12) Ọjọ́ mélòó ló wà nínú ọdún kan?</p>
+
   
       </>}
       handleClose={togglePopup}

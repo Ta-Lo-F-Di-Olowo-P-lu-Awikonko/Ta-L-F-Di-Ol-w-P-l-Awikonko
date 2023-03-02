@@ -1,7 +1,7 @@
     export const data = [
     {
       id: 1,
-      question: "Kin ni orúkọ oyè ọba Ìsẹ́yìn?",
+      question: "Kin ni orúkọ oyè ọba Ìsẹ́yìn? Edited",
       answers: [
         {
           text: "Olú Ìlú Ìsẹ́yìn",
@@ -9,11 +9,11 @@
         },
         {
           text: "WaỌ̀wá ti Ìsẹ́yìntches",
-          correct: true,
+          correct: false,
         },
         {
           text: "Asẹ́yìn",
-          correct: false,
+          correct: true,
         },
         {
           text: "Olúsẹ́yìn",

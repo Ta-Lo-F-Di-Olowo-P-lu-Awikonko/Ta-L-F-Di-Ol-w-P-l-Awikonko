@@ -1,7 +1,7 @@
     export const data = [
     {
       id: 1,
-      question: "Kin ni orúkọ oyè ọba Ìsẹ́yìn? Edited",
+      question: "Kin ni orúkọ oyè ọba Ìsẹ́yìn?",
       answers: [
         {
           text: "Olú Ìlú Ìsẹ́yìn",

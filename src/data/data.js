@@ -5,7 +5,7 @@
       answers: [
         {
           text: "Olú Ìlú Ìsẹ́yìn",
-          correct: false,
+          correct: true,
         },
         {
           text: "WaỌ̀wá ti Ìsẹ́yìntches",
@@ -13,7 +13,7 @@
         },
         {
           text: "Asẹ́yìn",
-          correct: true,
+          correct: false,
         },
         {
           text: "Olúsẹ́yìn",

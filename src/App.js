@@ -36,11 +36,11 @@ function App() {
         {id:8, amount:" Ẹgbẹ̀rún Lọ́nà Ọgọ́rin"},
         {id:9, amount:" Ẹgbẹ̀rún Lọ́nà Ọgọ́rùn-ún"},
         {id:10, amount:" Ẹgbẹ̀rún Lọ́nà Ọgọ́fà"},
-//         {id:11, amount:" Ẹgbẹ̀rún Lọ́nà Àádọ́jọ̀"},
-//         {id:12, amount:" Ẹgbẹ̀rún Lọ́nà Igba"},
-//         // {id:13, amount:" ₦2,000,000"},
-//         // {id:14, amount:" ₦5,000,000"},
-//         // {id:15, amount:" ₦10,000,000"},
+        {id:11, amount:" Ẹgbẹ̀rún Lọ́nà Àádọ́jọ̀"},
+        {id:12, amount:" Ẹgbẹ̀rún Lọ́nà Igba"},
+        // {id:13, amount:" ₦2,000,000"},
+        // {id:14, amount:" ₦5,000,000"},
+        // {id:15, amount:" ₦10,000,000"},
     ].reverse(), //an array method to reverse the order just like flex-direction: column reverse;
   []);
 
@@ -97,19 +97,19 @@ function App() {
                           className='endButton'
                           onClick={playAgain}
                         >
-                            Gba Lẹẹkansi
+                            Play Lẹẹkansi
                         </button>
                       </div>
                       : (
                       <>
                         <div className="mainTop">
-                          <div className="timer">
+                          {/* <div className="timer">
                             <Timer 
                                 setStop={setStop} 
                                 questionNumber={questionNumber} 
                                 timerRunning={timerRunning}
                             />
-                          </div>
+                          </div> */}
                         </div>
 
                         <div className="mainBottom">
@@ -144,8 +144,7 @@ function App() {
       content={<>
         <h3>Theory</h3>
         <p className='questions'>
-
-1) Tani bàbà Odùduwà? <br></br>
+          1) Tani bàbà Odùduwà? <br></br>
 2) Ogun abele Orile-ede Naijiria, láàárín ọdún wo, sì ọdún wo?<br></br>
 3) Ọgbọ́n la fi í pẹmọ́, àyà gbangba la fi í pejò, pẹ̀lẹ́pùtù la fi í roko ìdí ọpẹ jẹ òwe e?<br></br>
 4) kín ni orúkọ oyè ọba ìlú Warri?<br></br>
@@ -155,7 +154,8 @@ function App() {
 8) Kín ni orúkọ aare orile-ede Amerika?<br></br>
 9) Ọmọ ilé ìgbìmò asofin mélòó ni nbẹ ni Naijiria?<br></br>
 10) Olú ìlú ipinle Anambra ni?<br></br>
-
+11) Oṣù wo ni Yoruba npe ni Sẹẹrẹ?<br></br>
+12) Ọjọ́ mélòó ló wà nínú ọdún kan?</p>
   
       </>}
       handleClose={togglePopup}

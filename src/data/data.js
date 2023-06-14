@@ -1,10 +1,10 @@
     export const data = [
     {
       id: 1,
-      question: "Kin ni orúkọ oyè ọba Ìsẹ́yìn?",
+      question: "?Kin ni orúkọ oyè ọba Owu Kuta",
       answers: [
         {
-          text: "Olú Ìlú Ìsẹ́yìn",
+          text: "Olowu Kuta",
           correct: true,
         },
         {

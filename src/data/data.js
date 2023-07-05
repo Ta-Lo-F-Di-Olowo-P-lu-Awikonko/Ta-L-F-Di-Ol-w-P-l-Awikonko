@@ -1,22 +1,22 @@
     export const data = [
     {
       id: 1,
-      question: "?Kin ni orúkọ oyè ọba Owu Kuta",
+      question: "Kin ni orúkọ oyè ọba Owu Kuta?",
       answers: [
         {
-          text: "Olowu Kuta",
+          text: "A   Olowu Kuta",
           correct: true,
         },
         {
-          text: "WaỌ̀wá ti Ìsẹ́yìntches",
+          text: "B   Ọ̀wá ti Owu",
           correct: false,
         },
         {
-          text: "Asẹ́yìn",
+          text: "D   Oba Olowu",
           correct: false,
         },
         {
-          text: "Olúsẹ́yìn",
+          text: "E  Olú Owu",
           correct: false,
         },
       ],
@@ -26,19 +26,19 @@
       question: "Igi tí àrá sán le ti wó. WÓ nínú gbólóhùn yí jẹ́?",
       answers: [
         {
-          text: " Ọ̀rọ̀ Àpéjúwe",
+          text: "A  Ọ̀rọ̀ Àpéjúwe",
           correct: false,
         },
         {
-          text: "Ọ̀rọ̀ Àpọ́nlé",
+          text: "B   Ọ̀rọ̀ Àpọ́nlé",
           correct: false,
         },
         {
-          text: "Ọ̀rọ̀ Ẹ̀yán ",
+          text: "D   Ọ̀rọ̀ Ẹ̀yán ",
           correct: false,
         },
         {
-          text: "Ọ̀rọ̀ Ìṣe",
+          text: "E   Ọ̀rọ̀ Ìṣe",
           correct: true,
         },
       ],
@@ -48,20 +48,20 @@
       question: "Ọ́kan nínú àwọn nǹkan wọ̀nyí ni ẹ̀kọ́ nípa ìró èdè?",
       answers: [
         {
-          text: "Ẹ̀yà Ara",
+          text: "A   Ẹ̀yà Ara",
           correct: false,
         },
         {
-          text: "Dídún",
+          text: "B   Dídún",
           correct: false,
         },
         {
-          text: "Fọ̀nẹ́tíìkì",
-          correct: false,
-        },
-        {
-          text: "Àfipè",
+          text: "D   Fọ̀nẹ́tíìkì",
           correct: true,
+        },
+        {
+          text: "E   Àfipè",
+          correct: false,
         },
       ],
     },
@@ -70,19 +70,19 @@
       question: "Báwo ni a ṣe ń kí Ọnídìrí",
       answers: [
         {
-          text: "Ẹ kú isẹ́ o",
+          text: "A   Ẹ kú isẹ́ o",
+          correct: false,
+        },
+        {
+          text: "B   Ẹ kú ọrọ̀ ajé o",
+          correct: false,
+        },
+        {
+          text: "D   Ojúgbooro ",
           correct: true,
         },
         {
-          text: "Ẹ kú ọrọ̀ ajé o",
-          correct: false,
-        },
-        {
-          text: "Ojúgbooro ",
-          correct: false,
-        },
-        {
-          text: "Òòyà á yá o",
+          text: "E   Òòyà á yá o",
           correct: false,
         },
       ],
@@ -92,173 +92,173 @@
       question: `Ààlọ́ o! Ọ̀gán rìbìtì k'éwe sò'dí kín ni?`,
       answers: [
         {
-          text: "Òkìtì Ọ̀gán",
+          text: "A   Òkìtì Ọ̀gán",
           correct: false,
         },
         {
-          text: "Àgbàlagbà ",
+          text: "B   Àgbàlagbà ",
+          correct: false,
+        },
+        {
+          text: "D   Iyán ",
           correct: true,
         },
         {
-          text: "Iyán ",
-          correct: false,
-        },
-        {
-          text: "Amọ̀",
+          text: "E   Amọ̀",
           correct: false,
         },
       ],
     },
     {
       id: 6,
-      question: `Which team won the Major League Baseball World Series in 2003?`,
+      question: `Kin ni ohun ti o maa ba eni ti o ba mu ohun ti won fi ata paale le lori?`,
       answers: [
         {
-          text: "St. Louis Cardinals",
+          text: "A   Ojukokoro",
           correct: false,
         },
         {
-          text: "New York Yankees",
-          correct: false,
-        },
-        {
-          text: "Florida Marlins",
+          text: "B   Iponju",
           correct: true,
         },
         {
-          text: "Texas Rangers",
+          text: "D   Atenuje",
+          correct: false,
+        },
+        {
+          text: "E   Ole Jija",
           correct: false,
         },
       ],
     },
     {
       id: 7,
-      question: `Linus Mbah achieved fame in Nigerian sporting circles as what?`,
+      question: `Iran wo la maa nki ni omo boole o bu'po?`,
       answers: [
         {
-          text: "Swimmer",
-          correct: false,
-        },
-        {
-          text: "Referee",
+          text: "A   Aresa",
           correct: true,
         },
         {
-          text: "Football Fan",
+          text: "B   Opomulero",
           correct: false,
         },
         {
-          text: "Judoka",
+          text: "D   Esa Ogbin",
+          correct: false,
+        },
+        {
+          text: "E   Iyeru Okin",
           correct: false,
         },
       ],
     },
     {
       id: 8,
-      question: `Professor Maathai Wangari won the Nobel Prize for which of these?`,
+      question: `Laye atijo iru eniyan wo won fi nbo orisa?`,
       answers: [
         {
-          text: "Literature",
+          text: "A   Afin",
           correct: false,
         },
         {
-          text: "Economics",
+          text: "B   Abuke",
           correct: false,
         },
         {
-          text: "Peace",
+          text: "D   Okunrin",
+          correct: false,
+        },
+        {
+          text: "E   Oluwo",
           correct: true,
-        },
-        {
-          text: "Medicine",
-          correct: false,
         },
       ],
     },
     {
       id: 9,
-      question: `In which country is the Galeras Volcano?`,
+      question: `Kin ni Yoruba maa n fi i kilo ole jija?`,
       answers: [
         {
-          text: "Lebanon",
+          text: "A   Aja",
           correct: false,
         },
         {
-          text: "Columbia",
+          text: "B   Aso Pupa",
           correct: true,
         },
         {
-          text: "Japan",
+          text: "D   Ode",
           correct: false,
         },
         {
-          text: "Eritrea",
+          text: "E   Fijilante",
           correct: false,
         },
       ],
     },
     {
       id: 10,
-      question: `Who won the Academy Award for directing the movie "Million Dollar Baby"?`,
+      question: `I would want to go"?`,
       answers: [
         {
-          text: "Clint Eastwood",
+          text: "A   Mo fe lo",
+          correct: false,
+        },
+        {
+          text: "B   Maa fe lo",
           correct: true,
         },
         {
-          text: "Oliver Stone",
+          text: "D   Maa lo",
           correct: false,
         },
         {
-          text: "Peter Jackson",
-          correct: false,
-        },
-        {
-          text: "Morgan Freeman",
+          text: "E   Mo ti fe lo",
           correct: false,
         },
       ],
     },
     {
       id: 11,
-      question: `DAX refers to the stock market of which country?`,
+      question: `Abere se ra ra ra abere ra, kin lo ra ninu gbolohun yii?`,
       answers: [
         {
-          text: "France",
+          text: "A   Abere",
           correct: false,
         },
         {
-          text: "United States",
+          text: "B   Omo kan",
           correct: false,
         },
         {
-          text: "Germany",
+          text: "D   Eni to sonu",
+          correct: false,
+        },
+        {
+          text: "E   Oku",
           correct: true,
-        },
-        {
-          text: "India",
-          correct: false,
         },
       ],
     },
     {
       id: 12,
-      question: `Which of these holds bones together at the joints of the body?`,
+      question: `Igbagbo Yoruba ninu igbe aye titun ni Kin ni da le lori?`,
       answers: [
         {
-          text: "Nephrons",
+          text: "A   Eegun",
           correct: false,
         },
         {
-          text: "Nerves",
+          text: "B   Arofo Oku pipe",
           correct: false,
         },
         {
-          text: "Ligaments",
+          text: "D   Akudaaya",
           correct: true,
         },
         {
-          text: "Stitches",
+          text: "E   Eni to ji dide",
           correct: false,
         },
       ],

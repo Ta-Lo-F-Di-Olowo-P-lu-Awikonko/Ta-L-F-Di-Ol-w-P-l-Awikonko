@@ -4,19 +4,19 @@
       question: "Kin ni orúkọ oyè ọba Owu Kuta?",
       answers: [
         {
-          text: "A   Olowu Kuta",
+          text: "A.   Olowu Kuta",
           correct: true,
         },
         {
-          text: "B   Ọ̀wá ti Owu",
+          text: "B.   Ọ̀wá ti Owu",
           correct: false,
         },
         {
-          text: "D   Oba Olowu",
+          text: "D.   Oba Olowu",
           correct: false,
         },
         {
-          text: "E  Olú Owu",
+          text: "E.  Olú Owu",
           correct: false,
         },
       ],
@@ -26,19 +26,19 @@
       question: "Igi tí àrá sán le ti wó. WÓ nínú gbólóhùn yí jẹ́?",
       answers: [
         {
-          text: "A  Ọ̀rọ̀ Àpéjúwe",
+          text: "A.  Ọ̀rọ̀ Àpéjúwe",
           correct: false,
         },
         {
-          text: "B   Ọ̀rọ̀ Àpọ́nlé",
+          text: "B.   Ọ̀rọ̀ Àpọ́nlé",
           correct: false,
         },
         {
-          text: "D   Ọ̀rọ̀ Ẹ̀yán ",
+          text: "D.   Ọ̀rọ̀ Ẹ̀yán ",
           correct: false,
         },
         {
-          text: "E   Ọ̀rọ̀ Ìṣe",
+          text: "E.   Ọ̀rọ̀ Ìṣe",
           correct: true,
         },
       ],
@@ -48,19 +48,19 @@
       question: "Ọ́kan nínú àwọn nǹkan wọ̀nyí ni ẹ̀kọ́ nípa ìró èdè?",
       answers: [
         {
-          text: "A   Ẹ̀yà Ara",
+          text: "A.   Ẹ̀yà Ara",
           correct: false,
         },
         {
-          text: "B   Dídún",
+          text: "B.   Dídún",
           correct: false,
         },
         {
-          text: "D   Fọ̀nẹ́tíìkì",
+          text: "D.   Fọ̀nẹ́tíìkì",
           correct: true,
         },
         {
-          text: "E   Àfipè",
+          text: "E.   Àfipè",
           correct: false,
         },
       ],
@@ -70,19 +70,19 @@
       question: "Báwo ni a ṣe ń kí Ọnídìrí",
       answers: [
         {
-          text: "A   Ẹ kú isẹ́ o",
+          text: "A.   Ẹ kú isẹ́ o",
           correct: false,
         },
         {
-          text: "B   Ẹ kú ọrọ̀ ajé o",
+          text: "B.   Ẹ kú ọrọ̀ ajé o",
           correct: false,
         },
         {
-          text: "D   Ojúgbooro ",
+          text: "D.   Ojúgbooro ",
           correct: true,
         },
         {
-          text: "E   Òòyà á yá o",
+          text: "E.   Òòyà á yá o",
           correct: false,
         },
       ],
@@ -92,19 +92,19 @@
       question: `Ààlọ́ o! Ọ̀gán rìbìtì k'éwe sò'dí kín ni?`,
       answers: [
         {
-          text: "A   Òkìtì Ọ̀gán",
+          text: "A.   Òkìtì Ọ̀gán",
           correct: false,
         },
         {
-          text: "B   Àgbàlagbà ",
+          text: "B.   Àgbàlagbà ",
           correct: false,
         },
         {
-          text: "D   Iyán ",
+          text: "D.   Iyán ",
           correct: true,
         },
         {
-          text: "E   Amọ̀",
+          text: "E.   Amọ̀",
           correct: false,
         },
       ],
@@ -114,19 +114,19 @@
       question: `Kin ni ohun ti o maa ba eni ti o ba mu ohun ti won fi ata paale le lori?`,
       answers: [
         {
-          text: "A   Ojukokoro",
+          text: "A.   Ojukokoro",
           correct: false,
         },
         {
-          text: "B   Iponju",
+          text: "B.   Iponju",
           correct: true,
         },
         {
-          text: "D   Atenuje",
+          text: "D.   Atenuje",
           correct: false,
         },
         {
-          text: "E   Ole Jija",
+          text: "E.   Ole Jija",
           correct: false,
         },
       ],
@@ -136,19 +136,19 @@
       question: `Iran wo la maa nki ni omo boole o bu'po?`,
       answers: [
         {
-          text: "A   Aresa",
+          text: "A.   Aresa",
           correct: true,
         },
         {
-          text: "B   Opomulero",
+          text: "B.   Opomulero",
           correct: false,
         },
         {
-          text: "D   Esa Ogbin",
+          text: "D.   Esa Ogbin",
           correct: false,
         },
         {
-          text: "E   Iyeru Okin",
+          text: "E.   Iyeru Okin",
           correct: false,
         },
       ],
@@ -158,19 +158,19 @@
       question: `Laye atijo iru eniyan wo won fi nbo orisa?`,
       answers: [
         {
-          text: "A   Afin",
+          text: "A.   Afin",
           correct: false,
         },
         {
-          text: "B   Abuke",
+          text: "B.   Abuke",
           correct: false,
         },
         {
-          text: "D   Okunrin",
+          text: "D.   Okunrin",
           correct: false,
         },
         {
-          text: "E   Oluwo",
+          text: "E.   Oluwo",
           correct: true,
         },
       ],
@@ -180,19 +180,19 @@
       question: `Kin ni Yoruba maa n fi i kilo ole jija?`,
       answers: [
         {
-          text: "A   Aja",
+          text: "A.   Aja",
           correct: false,
         },
         {
-          text: "B   Aso Pupa",
+          text: "B.   Aso Pupa",
           correct: true,
         },
         {
-          text: "D   Ode",
+          text: "D.   Ode",
           correct: false,
         },
         {
-          text: "E   Fijilante",
+          text: "E.   Fijilante",
           correct: false,
         },
       ],
@@ -202,19 +202,19 @@
       question: `I would want to go"?`,
       answers: [
         {
-          text: "A   Mo fe lo",
+          text: "A.   Mo fe lo",
           correct: false,
         },
         {
-          text: "B   Maa fe lo",
+          text: "B.   Maa fe lo",
           correct: true,
         },
         {
-          text: "D   Maa lo",
+          text: "D.   Maa lo",
           correct: false,
         },
         {
-          text: "E   Mo ti fe lo",
+          text: "E.   Mo ti fe lo",
           correct: false,
         },
       ],
@@ -224,19 +224,19 @@
       question: `Abere se ra ra ra abere ra, kin lo ra ninu gbolohun yii?`,
       answers: [
         {
-          text: "A   Abere",
+          text: "A.   Abere",
           correct: false,
         },
         {
-          text: "B   Omo kan",
+          text: "B.   Omo kan",
           correct: false,
         },
         {
-          text: "D   Eni to sonu",
+          text: "D.   Eni to sonu",
           correct: false,
         },
         {
-          text: "E   Oku",
+          text: "E.   Oku",
           correct: true,
         },
       ],
@@ -246,19 +246,19 @@
       question: `Igbagbo Yoruba ninu igbe aye titun ni Kin ni da le lori?`,
       answers: [
         {
-          text: "A   Eegun",
+          text: "A.   Eegun",
           correct: false,
         },
         {
-          text: "B   Arofo Oku pipe",
+          text: "B.   Arofo Oku pipe",
           correct: false,
         },
         {
-          text: "D   Akudaaya",
+          text: "D.   Akudaaya",
           correct: true,
         },
         {
-          text: "E   Eni to ji dide",
+          text: "E.   Eni to ji dide",
           correct: false,
         },
       ],

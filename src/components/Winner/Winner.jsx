@@ -14,7 +14,7 @@ const Winner = ({username, earned, restartGame}) => {
         <p className='winnerText'>
             You are a proud winner of {earned}!!! Enjoy!!
         </p>
-        <button className='winnerButton' onClick={restartGame}> Restart Game </button>
+        <button className='winnerButton' offClick={restartGame}> Restart Game </button>
     </div>
 
   )
